@@ -1,4 +1,4 @@
-file = open('input.txt', 'r')
+file = open('2022/day4/input.txt', 'r')
 lines = file.readlines()
 
 pairsWithEncoumpass = 0
