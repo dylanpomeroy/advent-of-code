@@ -1,0 +1,9 @@
+[project]
+name = "advent-of-code"
+version = "0.0.1"
+authors = [
+  { name="Dylan Pomeroy", email="dylan@dylanpomeroy.com" },
+]
+description = "Advent of Code solutions"
+readme = "README.md"
+requires-python = ">=3.10.1"

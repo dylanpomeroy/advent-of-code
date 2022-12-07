@@ -1,4 +1,6 @@
-input = ''
+file = open('src/2022/day6/sample.txt', 'r')
+lines = file.readlines()
+input = lines[0]
 
 char0 = input[0]
 char1 = input[1]
