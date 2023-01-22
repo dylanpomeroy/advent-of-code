@@ -1,4 +1,4 @@
-file = open('src/2022/day7/input.txt', 'r')
+file = open('src/2022/day7/sample.txt', 'r')
 lines = file.readlines()
 
 currDir = ''
