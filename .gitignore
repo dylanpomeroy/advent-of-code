@@ -1,7 +1,44 @@
+*.pyc
 
-src/2022/day9/input.txt
-src/2022/day8/input.txt
-src/2022/day13/input.txt
-src/2022/day12/input.txt
-src/2022/day10/input.txt
-src/2022/day11/input.txt
+# Packages
+*.egg
+!/tests/**/*.egg
+/*.egg-info
+/dist/*
+build
+_build
+.cache
+*.so
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+
+.DS_Store
+.idea/*
+.python-version
+.vscode/*
+
+/test.py
+/test_*.*
+
+/setup.cfg
+MANIFEST.in
+/setup.py
+/docs/site/*
+/tests/fixtures/simple_project/setup.py
+/tests/fixtures/project_with_extras/setup.py
+.mypy_cache
+
+.venv
+/releases/*
+pip-wheel-metadata
+/poetry.toml
+
+poetry/core/*
+
+# AoC creator asks us not to commit non-sample inputs to public repos
+/**/input.txt
